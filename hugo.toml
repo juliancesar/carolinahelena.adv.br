@@ -2,9 +2,30 @@ baseURL = 'https://example.org/'
 languageCode = 'pt-BR'
 title = 'Dra. Carolina Helena'
 theme = 'paper'
+author = "Caroline Helena"
+enableInlineShortcodes = true
 
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
 
-disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [params]
   # color style
@@ -21,7 +42,7 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
   # home page profile
   avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
   name = 'Carolina Helena'
-  bio = 'Advogada'
+  bio = 'Advogada Trabalhista, Consumidor e Civil'
 
   # misc
   disableHLJS = true                        # disable highlight.js
@@ -29,14 +50,4 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
   monoDarkIcon = true                       # show monochrome dark mode icon
   gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
   math = false                               # enable KaTeX math typesetting globally
-  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
-
-# giscus
-#[params.giscus]
-#  repo = 'YOUR_GISCUS_REPO'                 # see https://giscus.app for more details
-#  repoId = 'YOUR_GISCUS_REPO_ID'
-#  category = 'YOUR__GISCUS_CATEGORY'
-#  categoryId = 'YOUR_GISCUS_CATEGORY_ID'
-#  mapping = 'pathname'
-#  theme = 'light'
-#  lang = 'zh-CN'
+  # graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
