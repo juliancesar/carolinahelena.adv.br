@@ -16,6 +16,7 @@ ignoreErrors = ["error-remote-getjson"]
     name = "About"
     url = "/about/"
     weight = 10
+    
   [[menu.main]]
     identifier = "contact"
     name = "Contact"
@@ -33,7 +34,6 @@ ignoreErrors = ["error-remote-getjson"]
 
   # header social icons
   linkedin = 'carolina-helena-gonçalves-da-silva-8885b024'             # linkedin.com/in/YOUR_LINKEDIN_ID
-  rss = false                                # show rss icon
 
   # home page profile
   avatar = 'carolhgs@gmail.com'                 # gravatar email or image url
@@ -43,7 +43,6 @@ ignoreErrors = ["error-remote-getjson"]
   # misc
   disableHLJS = true                        # disable highlight.js
   disablePostNavigation = true              # disable post navigation
-  monoDarkIcon = false                       # show monochrome dark mode icon
+  monoDarkIcon = true                       # show monochrome dark mode icon
   gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
   math = false                               # enable KaTeX math typesetting globally
-  # graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
