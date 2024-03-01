@@ -38,7 +38,7 @@ ignoreErrors = ["error-remote-getjson"]
   # home page profile
   avatar = 'carolhgs@gmail.com'                 # gravatar email or image url
   name = 'Carolina Helena'
-  bio = 'Advogada Trabalhista, Consumidor e Civil'
+  bio = 'Advogada Trabalhista e Civil (Família, Consumidor e Contratos)'
 
   # misc
   disableHLJS = true                        # disable highlight.js
