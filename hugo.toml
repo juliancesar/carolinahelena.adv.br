@@ -1,7 +1,7 @@
 baseURL = 'https://example.org/'
+theme = 'paper'
 languageCode = 'pt-BR'
 title = 'Advogada Dra. Carolina Helena'
-theme = 'paper'
 author = "Caroline Helena"
 enableInlineShortcodes = true
 
@@ -32,22 +32,18 @@ ignoreErrors = ["error-remote-getjson"]
   color = 'linen'                           # linen, wheat, gray, light
 
   # header social icons
-  # twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
-  # github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
-  # instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
   linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
-  # mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
   rss = true                                # show rss icon
 
   # home page profile
-  avatar = 'GRAVATAR_EMAIL'                 # gravatar email or image url
+  avatar = 'carolhgs@gmail.com'                 # gravatar email or image url
   name = 'Carolina Helena'
   bio = 'Advogada Trabalhista, Consumidor e Civil'
 
   # misc
   disableHLJS = true                        # disable highlight.js
   disablePostNavigation = true              # disable post navigation
-  monoDarkIcon = true                       # show monochrome dark mode icon
-  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  monoDarkIcon = false                       # show monochrome dark mode icon
+  gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
   math = false                               # enable KaTeX math typesetting globally
   # graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
