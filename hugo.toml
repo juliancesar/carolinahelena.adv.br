@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'pt-BR'
-title = 'Dra. Carolina Helena'
+title = 'Advogada Dra. Carolina Helena'
 theme = 'paper'
 author = "Caroline Helena"
 enableInlineShortcodes = true
