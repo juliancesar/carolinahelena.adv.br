@@ -32,7 +32,7 @@ ignoreErrors = ["error-remote-getjson"]
   color = 'linen'                           # linen, wheat, gray, light
 
   # header social icons
-  linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  linkedin = 'carolina-helena-gonçalves-da-silva-8885b024'             # linkedin.com/in/YOUR_LINKEDIN_ID
   rss = true                                # show rss icon
 
   # home page profile
